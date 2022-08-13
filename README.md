@@ -1,2 +1,7 @@
-# engine-sim-build-tutorial
-tutorial on how to build the engine simulator by ange yahgi
+# How to Build?
+
+**Step 1 - Cloning Repository**
+
+Open a Terminal and run ```
+git clone --recurse-submodules https://github.com/ange-yaghi/engine-sim
+```
