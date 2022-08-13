@@ -2,7 +2,7 @@
 
 # Step 1 - Installing Chocolatey and Cmake
 
-Run another Powershell.exe **As Administrator** and enter this command to install chocolatey like this:
+Run a Powershell.exe **As Administrator** and enter this command to install chocolatey like this:
 
 ![adminpshell](https://cdn.discordapp.com/attachments/794975038616895488/1008036672736342086/unknown.png)
 ```
