@@ -73,6 +73,10 @@ include_directories(${SDL2_IMAGE_INCLUDE_DIR})
 
 ![cmakelist](https://cdn.discordapp.com/attachments/794975038616895488/1008042756083568720/unknown.png)
 
+Also, change `option(PIRANHA_ENABLED "Enable scripting input" OFF)` to `option(PIRANHA_ENABLED "Enable scripting input" ON)`:
+
+![piranha](https://cdn.discordapp.com/attachments/794975038616895488/1008049103986511964/unknown.png)
+
 # Step 4 - Building the Simulator
 
 Return to the Powershell you left open in step 2 and run these commands:
