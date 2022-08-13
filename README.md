@@ -1,6 +1,6 @@
 # How to Build?
 
-**Step 1 - Installing Chocolatey and Cmake**
+# Step 1 - Installing Chocolatey and Cmake
 
 Run another Powershell.exe **As Administrator** and enter this command to install chocolatey like this:
 
@@ -18,7 +18,7 @@ Answer Y to every question and when it is finished, close the Powershell.
 
 ![chocolatey](https://cdn.discordapp.com/attachments/794975038616895488/1008037498640928868/unknown.png)
 
-**Step 2 - Cloning repository**
+# Step 2 - Cloning repository
 
 Open another Powershell and use `cd` to navigate into the desired location (default folder is C:/Users/your_name/)
 
@@ -36,7 +36,7 @@ cd build/
 
 *info: leave the Powershell open for now.*
 
-**Step 3 - Dependencies**
+# Step 3 - Dependencies
 
 First, create a `local` folder in your `C:` drive.
 
@@ -73,7 +73,7 @@ include_directories(${SDL2_IMAGE_INCLUDE_DIR})
 
 ![cmakelist](https://cdn.discordapp.com/attachments/794975038616895488/1008042756083568720/unknown.png)
 
-**Step 4 - Building the Simulator**
+# Step 4 - Building the Simulator
 
 Return to the Powershell you left open in step 2 and run these commands:
 ```
@@ -84,12 +84,13 @@ cmake ..
 
 Everything should build sucessfully. You can ignore the Yellow warnings while building.
 
-**Step 5 - Starting the Simulator**
+# Step 5 - Starting the Simulator
 
 In the engine-sim folder, open the `build` folder and open the file `engine-sim.sln`.
 If you do not have Visual Studio installed, you will need it now.
 
 ![buildfolder](https://cdn.discordapp.com/attachments/794975038616895488/1008044394156408922/unknown.png)
+
 ![solution](https://cdn.discordapp.com/attachments/794975038616895488/1008044430336467014/unknown.png)
 
 Then you select `Release` in this dropdown menu:
@@ -99,3 +100,6 @@ Then you select `Release` in this dropdown menu:
 and in the solution explorer, right click `engine-sim-app` and select `Set as Startup project`:
 
 ![project](https://cdn.discordapp.com/attachments/794975038616895488/1008045401309462559/unknown.png)
+
+now you can Press `F5` to start the Simulator.
+*info: This will not run Standalone without moving files, so you need to start it with VS.*
