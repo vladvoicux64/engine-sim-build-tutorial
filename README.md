@@ -37,4 +37,7 @@ cd build/
 **Step 3 - Dependencies**
 
 First, create a `local` folder in your `C:` drive.
+
 ![folder](https://cdn.discordapp.com/attachments/794975038616895488/1008038688393015326/unknown.png)
+
+then put [these files]()
