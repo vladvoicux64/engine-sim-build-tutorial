@@ -1,6 +1,6 @@
 # How to Build?
 
-# Step 1 - Installing Chocolatey and Cmake
+# Step 1 - Installing Chocolatey, git and Cmake
 
 Run a Powershell.exe **As Administrator** and enter this command to install chocolatey like this:
 
@@ -12,7 +12,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 close Powershell and open it Again as Administrator and enter this command:
 ```
-chocolatey install cmake
+chocolatey install cmake git
 ```
 Answer Y to every question and when it is finished, close the Powershell.
 
