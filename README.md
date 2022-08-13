@@ -5,10 +5,10 @@
 Run another Powershell.exe **As Administrator** and enter this command to install chocolatey like this:
 
 ![adminpshell](https://cdn.discordapp.com/attachments/794975038616895488/1008036672736342086/unknown.png)
-
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
+![comand](https://cdn.discordapp.com/attachments/794975038616895488/1008037125448548402/unknown.png)
 
 close Powershell and open it Again as Administrator and enter this command:
 ```
