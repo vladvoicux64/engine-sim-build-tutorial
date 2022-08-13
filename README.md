@@ -16,6 +16,8 @@ chocolatey install cmake
 ```
 Answer Y to every question and when it is finished, close the Powershell.
 
+![chocolatey](https://cdn.discordapp.com/attachments/794975038616895488/1008037498640928868/unknown.png)
+
 **Step 2 - Cloning repository**
 
 Open another Powershell and use `cd` to navigate into the desired location (default folder is C:/Users/your_name/)
@@ -30,7 +32,9 @@ cd engine-sim/
 mkdir build/
 cd build/
 ```
+![repo](https://cdn.discordapp.com/attachments/794975038616895488/1008038407362064404/unknown.png)
 
 **Step 3 - Dependencies**
 
-First, create a `local` folder in your `C:` drive
+First, create a `local` folder in your `C:` drive.
+![folder](https://cdn.discordapp.com/attachments/794975038616895488/1008038688393015326/unknown.png)
