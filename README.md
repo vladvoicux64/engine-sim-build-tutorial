@@ -82,6 +82,7 @@ Also, change `option(PIRANHA_ENABLED "Enable scripting input" OFF)` to `option(P
 Return to the Powershell you left open in step 2 and run these commands:
 ```
 cmake ..
+cmake --build .
 ```
 
 ![cmake1](https://cdn.discordapp.com/attachments/794975038616895488/1008043402698424401/unknown.png)
