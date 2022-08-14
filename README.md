@@ -1,5 +1,7 @@
 # How to Build?
 
+NOTE: a Prebuilt binary exists [here!!!](https://github.com/ange-yaghi/engine-sim/tags)
+
 # Step 1 - Installing Chocolatey, git and Cmake
 
 Run a Powershell.exe **As Administrator** and enter this command to install chocolatey like this:
@@ -14,9 +16,20 @@ close Powershell and open it Again as Administrator and enter this command:
 ```
 chocolatey install cmake git
 ```
-Answer Y to every question and when it is finished, close the Powershell.
+Answer Y to every question.
 
 ![chocolatey](https://cdn.discordapp.com/attachments/794975038616895488/1008037498640928868/unknown.png)
+
+After these are installed, make sure you have Visual Studio installed. **important note: you need to check “Desktop development with C++”!!!**.
+When Visual Studio is installed, navigate to `C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\**.**.**\bin\Hostx64\x64`
+And copy this location. (the stars are there, because you might have a different version.)
+
+if you found the folder, run this command. ("your_folder" is the complete directory, eg. "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\Hostx64\x64")
+
+```
+cmd /c setx.exe PATH "%PATH%;your_folder;C:\Program Files\Cmake\Bin"
+```
+*note: please do this step very carefully.*
 
 # Step 2 - Cloning repository
 
@@ -97,7 +110,6 @@ If you don't see This folder, create it. *info: the capital R is important*
 ![dlls](https://cdn.discordapp.com/attachments/794975038616895488/1008047688429871125/unknown.png)
 
 In the engine-sim folder, open the `build` folder and open the file `engine-sim.sln`.
-If you do not have Visual Studio installed, you will need it now.
 
 ![buildfolder](https://cdn.discordapp.com/attachments/794975038616895488/1008044394156408922/unknown.png)
 
