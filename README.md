@@ -123,6 +123,9 @@ and in the solution explorer, right click `engine-sim-app` and select `Set as St
 
 ![project](https://cdn.discordapp.com/attachments/794975038616895488/1008045401309462559/unknown.png)
 
-now you can Press `F5` to start the Simulator.
-making it standalone is creating a bin folder in "engine-sim" and copying the stuff from engine-sim/build/Releases to engine-sim/bin and running the exe inside
+Now you can Press `F5` to start the Simulator.
 
+To make it standalone:
+Create a folder in engine-sim called bin. 
+Then copy all the files from engine-sim/build/Releases into engine-sim/bin
+Now you can run the EXE. If you want to move the files, you just need to move bin | es | dependencies | assets
